@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: sistemaintegracao
+  datasource:
+    url: jdbc:postgresql://postgres:5432/sistemadb
+    username: postgres
+    password: postgres
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+server:
+  port: 8080
